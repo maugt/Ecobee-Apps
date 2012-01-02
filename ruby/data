@@ -1,0 +1,91 @@
+{
+    "activePriceTiers": [], 
+    "allowedHvacModes": "heat,cool,auxHeatOnly,off", 
+    "autoModeCorrection": false, 
+    "calendarEventName": "", 
+    "calendarEventOwner": "system", 
+    "calendarEventType": "useEndTime", 
+    "coolHoldTemp": 780, 
+    "currentHumidity": 23, 
+    "currentPeriodClimateRef": "home", 
+    "currentPeriodDate": "2011-12-30", 
+    "currentPeriodName": "Home", 
+    "currentPeriodTime": "08:00:00", 
+    "currentTemp": 674, 
+    "currentTierRef": "", 
+    "debug": false, 
+    "dutyCyclePercentage": 0, 
+    "fan": "auto", 
+    "heatHoldTemp": 680, 
+    "holdType": "noNewHold", 
+    "holdUntilDate": "2001-01-01", 
+    "holdUntilTime": "12:00:00", 
+    "idtConnected": false, 
+    "inCalendarEvent": false, 
+    "inMandatoryDemandResponseEvent": false, 
+    "inOptionalDemandResponseEvent": false, 
+    "inSensorEvent": false, 
+    "isChangeFavourable": false, 
+    "isRented": false, 
+    "lastUpdated": "2011-12-30 19:48:33", 
+    "map": {}, 
+    "millisToNextTransition": 36132000, 
+    "nextPeriodDate": "2011-12-30", 
+    "nextPeriodName": "Sleep", 
+    "nextPeriodTime": "22:00:00", 
+    "sensorStateSet": {
+        "states": [
+            {
+                "currentConsumption": -5002, 
+                "extra": "", 
+                "sensorRef": "ei:0:1", 
+                "totalDailyConsumption": -5002, 
+                "totalDailyCost": -5002, 
+                "value": 0
+            }, 
+            {
+                "currentConsumption": -5002, 
+                "extra": "", 
+                "sensorRef": "ei:0:2", 
+                "totalDailyConsumption": -5002, 
+                "totalDailyCost": -5002, 
+                "value": 0
+            }, 
+            {
+                "currentConsumption": -5002, 
+                "extra": "", 
+                "sensorRef": "rs:0:1", 
+                "totalDailyConsumption": -5002, 
+                "totalDailyCost": -5002, 
+                "value": 690
+            }, 
+            {
+                "currentConsumption": -5002, 
+                "extra": "", 
+                "sensorRef": "rs:0:2", 
+                "totalDailyConsumption": -5002, 
+                "totalDailyCost": -5002, 
+                "value": 454
+            }, 
+            {
+                "currentConsumption": -5002, 
+                "extra": "", 
+                "sensorRef": "rs:0:3", 
+                "totalDailyConsumption": -5002, 
+                "totalDailyCost": -5002, 
+                "value": 0
+            }, 
+            {
+                "currentConsumption": -5002, 
+                "extra": "", 
+                "sensorRef": "rs:0:4", 
+                "totalDailyConsumption": -5002, 
+                "totalDailyCost": -5002, 
+                "value": 0
+            }
+        ]
+    }, 
+    "setHumidity": 36, 
+    "thermostatDateTime": "2011-12-30 11:57:47", 
+    "thermostatOffsetMinutesUtc": -480
+}
