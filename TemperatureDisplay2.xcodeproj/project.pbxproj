@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08242BBF14AE56A1002A53B3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08242BBE14AE56A1002A53B3 /* Cocoa.framework */; };
+		08242BC914AE56A1002A53B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08242BC714AE56A1002A53B3 /* InfoPlist.strings */; };
+		08242BCB14AE56A1002A53B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08242BCA14AE56A1002A53B3 /* main.m */; };
+		08242BCF14AE56A1002A53B3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 08242BCD14AE56A1002A53B3 /* Credits.rtf */; };
+		08242BD514AE56A1002A53B3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08242BD314AE56A1002A53B3 /* MainMenu.xib */; };
+		08242BDD14AE56B4002A53B3 /* TemperatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08242BDC14AE56B4002A53B3 /* TemperatureView.m */; };
+		0888CD6B14B267A6002C4706 /* ecobee_thermostat.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0888CD6814B267A6002C4706 /* ecobee_thermostat.rb */; };
+		0888CD6C14B267A6002C4706 /* ecobee.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0888CD6914B267A6002C4706 /* ecobee.rb */; };
+		0888CD6D14B267A6002C4706 /* siriproxy-ecobee.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0888CD6A14B267A6002C4706 /* siriproxy-ecobee.rb */; };
+		08AE8C3D14AE7D9600441175 /* StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AE8C3C14AE7D9600441175 /* StatusBar.m */; };
+		08DE6B1B14AE903300C76760 /* TemperatureDisplay2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DE6B1A14AE903300C76760 /* TemperatureDisplay2AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08242BBA14AE56A1002A53B3 /* TemperatureDisplay2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureDisplay2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08242BBE14AE56A1002A53B3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		08242BC114AE56A1002A53B3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		08242BC214AE56A1002A53B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		08242BC314AE56A1002A53B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08242BC614AE56A1002A53B3 /* TemperatureDisplay2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureDisplay2-Info.plist"; sourceTree = "<group>"; };
+		08242BC814AE56A1002A53B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08242BCA14AE56A1002A53B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08242BCC14AE56A1002A53B3 /* TemperatureDisplay2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemperatureDisplay2-Prefix.pch"; sourceTree = "<group>"; };
+		08242BCE14AE56A1002A53B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		08242BD414AE56A1002A53B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		08242BDB14AE56B4002A53B3 /* TemperatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemperatureView.h; path = ../TemperatureView.h; sourceTree = "<group>"; };
+		08242BDC14AE56B4002A53B3 /* TemperatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TemperatureView.m; path = ../TemperatureView.m; sourceTree = "<group>"; };
+		0888CD6814B267A6002C4706 /* ecobee_thermostat.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = ecobee_thermostat.rb; path = ../ecobee/lib/ecobee_thermostat.rb; sourceTree = "<group>"; };
+		0888CD6914B267A6002C4706 /* ecobee.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = ecobee.rb; path = ../ecobee/lib/ecobee.rb; sourceTree = "<group>"; };
+		0888CD6A14B267A6002C4706 /* siriproxy-ecobee.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = "siriproxy-ecobee.rb"; path = "../ecobee/lib/siriproxy-ecobee.rb"; sourceTree = "<group>"; };
+		08AE8C3B14AE7D9600441175 /* StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusBar.h; sourceTree = "<group>"; };
+		08AE8C3C14AE7D9600441175 /* StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusBar.m; sourceTree = "<group>"; };
+		08DE6B1914AE903300C76760 /* TemperatureDisplay2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureDisplay2AppDelegate.h; sourceTree = "<group>"; };
+		08DE6B1A14AE903300C76760 /* TemperatureDisplay2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureDisplay2AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08242BB714AE56A1002A53B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08242BBF14AE56A1002A53B3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08242BAF14AE56A1002A53B3 = {
+			isa = PBXGroup;
+			children = (
+				0888CD6F14B267B1002C4706 /* Ruby */,
+				08242BC414AE56A1002A53B3 /* TemperatureDisplay2 */,
+				08242BBD14AE56A1002A53B3 /* Frameworks */,
+				08242BBB14AE56A1002A53B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08242BBB14AE56A1002A53B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08242BBA14AE56A1002A53B3 /* TemperatureDisplay2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08242BBD14AE56A1002A53B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08242BBE14AE56A1002A53B3 /* Cocoa.framework */,
+				08242BC014AE56A1002A53B3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08242BC014AE56A1002A53B3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08242BC114AE56A1002A53B3 /* AppKit.framework */,
+				08242BC214AE56A1002A53B3 /* CoreData.framework */,
+				08242BC314AE56A1002A53B3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		08242BC414AE56A1002A53B3 /* TemperatureDisplay2 */ = {
+			isa = PBXGroup;
+			children = (
+				08242BDB14AE56B4002A53B3 /* TemperatureView.h */,
+				08242BDC14AE56B4002A53B3 /* TemperatureView.m */,
+				08242BCA14AE56A1002A53B3 /* main.m */,
+				08242BD314AE56A1002A53B3 /* MainMenu.xib */,
+				08DE6B1A14AE903300C76760 /* TemperatureDisplay2AppDelegate.m */,
+				08DE6B1914AE903300C76760 /* TemperatureDisplay2AppDelegate.h */,
+				08AE8C3B14AE7D9600441175 /* StatusBar.h */,
+				08AE8C3C14AE7D9600441175 /* StatusBar.m */,
+				08242BC514AE56A1002A53B3 /* Supporting Files */,
+			);
+			path = TemperatureDisplay2;
+			sourceTree = "<group>";
+		};
+		08242BC514AE56A1002A53B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08242BC614AE56A1002A53B3 /* TemperatureDisplay2-Info.plist */,
+				08242BC714AE56A1002A53B3 /* InfoPlist.strings */,
+				08242BCC14AE56A1002A53B3 /* TemperatureDisplay2-Prefix.pch */,
+				08242BCD14AE56A1002A53B3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0888CD6F14B267B1002C4706 /* Ruby */ = {
+			isa = PBXGroup;
+			children = (
+				0888CD6814B267A6002C4706 /* ecobee_thermostat.rb */,
+				0888CD6914B267A6002C4706 /* ecobee.rb */,
+				0888CD6A14B267A6002C4706 /* siriproxy-ecobee.rb */,
+			);
+			name = Ruby;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08242BB914AE56A1002A53B3 /* TemperatureDisplay2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08242BD814AE56A1002A53B3 /* Build configuration list for PBXNativeTarget "TemperatureDisplay2" */;
+			buildPhases = (
+				08242BB614AE56A1002A53B3 /* Sources */,
+				08242BB714AE56A1002A53B3 /* Frameworks */,
+				08242BB814AE56A1002A53B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureDisplay2;
+			productName = TemperatureDisplay2;
+			productReference = 08242BBA14AE56A1002A53B3 /* TemperatureDisplay2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08242BB114AE56A1002A53B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Google, Inc.";
+			};
+			buildConfigurationList = 08242BB414AE56A1002A53B3 /* Build configuration list for PBXProject "TemperatureDisplay2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08242BAF14AE56A1002A53B3;
+			productRefGroup = 08242BBB14AE56A1002A53B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08242BB914AE56A1002A53B3 /* TemperatureDisplay2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08242BB814AE56A1002A53B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08242BC914AE56A1002A53B3 /* InfoPlist.strings in Resources */,
+				08242BCF14AE56A1002A53B3 /* Credits.rtf in Resources */,
+				08242BD514AE56A1002A53B3 /* MainMenu.xib in Resources */,
+				0888CD6B14B267A6002C4706 /* ecobee_thermostat.rb in Resources */,
+				0888CD6C14B267A6002C4706 /* ecobee.rb in Resources */,
+				0888CD6D14B267A6002C4706 /* siriproxy-ecobee.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08242BB614AE56A1002A53B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08242BCB14AE56A1002A53B3 /* main.m in Sources */,
+				08242BDD14AE56B4002A53B3 /* TemperatureView.m in Sources */,
+				08AE8C3D14AE7D9600441175 /* StatusBar.m in Sources */,
+				08DE6B1B14AE903300C76760 /* TemperatureDisplay2AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08242BC714AE56A1002A53B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08242BC814AE56A1002A53B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08242BCD14AE56A1002A53B3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08242BCE14AE56A1002A53B3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		08242BD314AE56A1002A53B3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08242BD414AE56A1002A53B3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08242BD614AE56A1002A53B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		08242BD714AE56A1002A53B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		08242BD914AE56A1002A53B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureDisplay2/TemperatureDisplay2-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureDisplay2/TemperatureDisplay2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08242BDA14AE56A1002A53B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureDisplay2/TemperatureDisplay2-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureDisplay2/TemperatureDisplay2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08242BB414AE56A1002A53B3 /* Build configuration list for PBXProject "TemperatureDisplay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08242BD614AE56A1002A53B3 /* Debug */,
+				08242BD714AE56A1002A53B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08242BD814AE56A1002A53B3 /* Build configuration list for PBXNativeTarget "TemperatureDisplay2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08242BD914AE56A1002A53B3 /* Debug */,
+				08242BDA14AE56A1002A53B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08242BB114AE56A1002A53B3 /* Project object */;
+}
